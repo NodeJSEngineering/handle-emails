@@ -1,5 +1,7 @@
 # Send Emails with Node.js
 
+nodemailer package used to send emails
+
  Simple Mail Transfer Protocol (SMTP) is a protocol for sending e-mail messages between servers.
  SMTP is the main transport used by nodemailer for delivering messages.
 
