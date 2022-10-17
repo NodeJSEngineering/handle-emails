@@ -1,5 +1,5 @@
 ## App name
-send-email
+send newsletter like email
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NodeJSEngineering/handle-emails?logo=github&style=social)](https://github.com/NodeJSEngineering/) [![GitHub last commit](https://img.shields.io/github/last-commit/NodeJSEngineering/handle-emails?style=social&logo=git)](https://github.com/NodeJSEngineering/) [![GitHub stars](https://img.shields.io/github/stars/NodeJSEngineering/handle-emails?style=social)](https://github.com/NodeJSEngineering/handle-emails/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NodeJSEngineering/handle-emails?style=social&logo=git)](https://github.com/NodeJSEngineering/handle-emails/network)
 
@@ -14,21 +14,21 @@ send-email
 
 ## Useful Links
 
-- [api](http://localhost:3000/send-email)
-- [server](http://localhost:5000/)
+- [send email using ejs api](http://localhost:3000/send-email)
+- [send mail using basic api](http://localhost:3000/basic)
 
 
 ## Requirements
 
 [![GitHub top language](https://img.shields.io/github/languages/top/NodeJSEngineering/handle-emails?logo=html&style=social)](https://github.com/NodeJSEngineering/)
 
-The source code of this project is written in **`JavaScript`, and used multiple `packages`**. 
+The source code of this project is written in **`JavaScript`, and used `nodemailer`**. 
 
 ## Instructions
 
 [![chrome](https://img.shields.io/badge/Open-project-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#)
 
-Open the project and run `node server.js` `node index.js`
+Open the project and run `node server.js`
 
 ## Pre-requisites
 npm, nodejs

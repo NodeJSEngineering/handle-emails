@@ -1,5 +1,5 @@
 const express = require("express");
-const { sendEmail } = require("./index");
+const { sendEmail, sendEmail2 } = require("./index");
 
 const app = express();
 
@@ -8,6 +8,15 @@ app.get("/send-email", (req, res) => {
     "test@mailinator.com",
     "Welcome message",
     "Welcome message content"
+  );
+  res.send("send email success");
+});
+
+app.get("/basic", (req, res) => {
+  sendEmail2(
+    'elonmusk@tesla.com',
+    'Design Your Model S | Tesla',
+    'Plain text body'
   );
   res.send("send email success");
 });
