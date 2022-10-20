@@ -5,7 +5,7 @@ send newsletter like email
 
 <p align="center">
 <a href="#">
-<img src="./assets/1_bILDQkDQDc74WdmvrZUWXA.png" width="200px" alt="web scraper"/>
+<img src="" width="200px" alt="nodemailer"/>
 </a>
 </p>
 
