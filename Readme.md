@@ -1,11 +1,11 @@
 ## App name
-send newsletter like email
+send email using code
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NodeJSEngineering/handle-emails?logo=github&style=social)](https://github.com/NodeJSEngineering/) [![GitHub last commit](https://img.shields.io/github/last-commit/NodeJSEngineering/handle-emails?style=social&logo=git)](https://github.com/NodeJSEngineering/) [![GitHub stars](https://img.shields.io/github/stars/NodeJSEngineering/handle-emails?style=social)](https://github.com/NodeJSEngineering/handle-emails/stargazers) [![GitHub forks](https://img.shields.io/github/forks/NodeJSEngineering/handle-emails?style=social&logo=git)](https://github.com/NodeJSEngineering/handle-emails/network)
 
 <p align="center">
 <a href="#">
-<img src="" width="200px" alt="nodemailer"/>
+<img src="public/Capture.PNG" width="200px" alt="nodemailer"/>
 </a>
 </p>
 
@@ -14,8 +14,8 @@ send newsletter like email
 
 ## Useful Links
 
-- [send email using ejs api](http://localhost:3000/send-email)
-- [send mail using basic api](http://localhost:3000/basic)
+- [api to send email using ejs](http://localhost:3000/send-newsletter-on-email)
+- [api to send basic mail](http://localhost:3000/send-simple-mail)
 
 
 ## Requirements
@@ -28,7 +28,7 @@ The source code of this project is written in **`JavaScript`, and used `nodemail
 
 [![chrome](https://img.shields.io/badge/Open-project-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#)
 
-Open the project and run `node server.js`
+Open the project and run ` npm run start`
 
 ## Pre-requisites
 npm, nodejs
@@ -56,7 +56,7 @@ https://github.com/NodeJSEngineering/handle-emails
 ## build creation and deployment
 [command](https://dashboard.heroku.com/apps/testnodeappnew)
 ## Features
-http-proxy
+newsletter like email you can send
 
 ## Support
 Don't Forget to bookmark/star this repo.

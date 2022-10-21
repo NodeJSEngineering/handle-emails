@@ -1,19 +1,19 @@
 const express = require("express");
-const { sendEmail, sendEmail2 } = require("./index");
+const { sendEmail, sendBasicEmail } = require("./index");
 
 const app = express();
 
-app.get("/send-email", (req, res) => {
+app.get("/send-newsletter-on-email", (req, res) => {
   sendEmail(
     "test@mailinator.com",
     "Welcome message",
     "Welcome message content"
   );
-  res.send("send email success");
+  res.send("send newsletter success");
 });
 
-app.get("/basic", (req, res) => {
-  sendEmail2(
+app.get("/send-simple-mail", (req, res) => {
+  sendBasicEmail(
     'elonmusk@tesla.com',
     'Design Your Model S | Tesla',
     'Plain text body'

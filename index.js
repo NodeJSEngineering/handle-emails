@@ -1,16 +1,31 @@
 const nodemailer = require('nodemailer');
 const ejs = require('ejs');
 
-let transport = nodemailer.createTransport({
+const obj = {
   host: 'smtp.mailtrap.io',
   port: 2525,
   auth: {
-    user: '7bcebff80e28c0',
-    pass: 'fc874983821f43'
+    user: '',
+    pass: ''
   }
-});
+};
 
-const sendEmail2 = (to, subject, content) => {
+const obj2 = {
+  "host": "127.0.0.1",
+  "port": 1025,
+  "secure": false,
+  "auth": {
+      "user": "test@protonmail.com",
+      "pass": ""
+  },
+  "tls": {
+      "rejectUnauthorized": false
+  }
+}
+let transport = nodemailer.createTransport(obj);
+
+
+const sendBasicEmail = (to, subject, content) => {
   const message = {
     from: 'elonmusk@tesla.com', // Sender address
     to,         // List of recipients
@@ -61,5 +76,5 @@ const sendEmail = (receiver, subject, content) => {
 };
 
 module.exports = {
-  sendEmail, sendEmail2
+  sendEmail, sendBasicEmail
 };
