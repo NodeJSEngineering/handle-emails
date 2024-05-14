@@ -1,13 +1,14 @@
 const nodemailer = require('nodemailer');
 const ejs = require('ejs');
 const multiparty = require("multiparty");
+require('dotenv').config()
 
 const obj = {
   host: 'smtp.mailtrap.io',
   port: 2525,
   auth: {
-    user: '',
-    pass: ''
+    user: process.env.USER,
+    pass: process.env.PASS
   }
 };
 

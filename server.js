@@ -15,7 +15,7 @@ app.get("/send-newsletter-on-email", (req, res) => {
 
 app.get("/send-simple-mail", (req, res) => {
   sendBasicEmail(
-    'sunny.gp07@gmail.com',
+    'test@gmail.com',
     'Design Your Model S | Tesla',
     'Plain text body'
   );
@@ -26,7 +26,6 @@ app.post("/send", (req, res) => {
   sendFormData(req, res)
 });
 
-//make the contact page the t4he first page on the app
 app.route("/").get(function (req, res) {
   res.sendFile(process.cwd() + "/public/index.html");
 });

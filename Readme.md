@@ -27,6 +27,9 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 - Maintain a database of all email addresses added.
 - mail rollout to large audience.
 
+### useful commands to run project
+- npm run start
+
 ### Packages used
 -  nodemailer
 
@@ -38,12 +41,6 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 ### Instructions
 To use this app create credentials(username/password) from mailtrap.
-
-### Useful Links
-- [Normal Image](http://res.cloudinary.com/demo/image/upload/sample.jpg)
-- [Image w_150,h_100](http://res.cloudinary.com/demo/image/upload/w_150,h_100,c_fill/sample.jpg)
-- [Image w_150,h_100, g_face](http://res.cloudinary.com/demo/image/facebook/c_thumb,g_face,h_90,w_120/billclinton.jpg)
-- [Image w_150,h_100, rounded corners of 20 pixels](http://res.cloudinary.com/demo/image/upload/w_150,h_100,c_fill,r_20/sample.png)
 
 ## Subscribe and Stay Updated!
 
